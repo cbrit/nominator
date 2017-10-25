@@ -8,11 +8,17 @@ Since the original NOMinator was created in my companies network, I could not ho
 
 ## Usage
 
-Create a secret.json that contains your Slack API Auth credentials in the following format:
+Create a config.json that contains your Slack API Auth credentials in the following format:
 ```
 {
-     "client_id": "",
-     "client_secret": "",
-     "verification_token": ""
+     "username": "",
+     "channel": "",
+     "url": "",
+     "secrets": {
+          "client_id": "",
+          "client_secret": "",
+          "verification_token": "",
+          "api_token": ""
+     }
 }
 ```
